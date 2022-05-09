@@ -1,0 +1,3 @@
+#最外层的CMaleLists.txt加载子目录后到达这里，这里也没有源码需要编译，所以也是加载子目录
+add_subdirectory(server)
+add_subdirectory(client)
